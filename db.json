@@ -1,0 +1,74 @@
+{   
+    "posts": [
+        {
+          "id": 1,
+          "tags": [
+            { "name": "foo" },
+            { "name": "bar" }
+            ],
+          "title": "json-server",
+          "author": "typicode"
+        },
+        
+        {
+          "id": 2,
+          "tags": [
+            { "name": "language" },
+            { "name": "dance" }
+            ],
+          "title": "json-server12",
+          "author": "typicode5"
+        }
+    
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "body": "some comment",
+          "postId": 1
+        }
+      ],
+    "users" :  [
+
+        {
+            "id" : "1",
+            "date" : "7-11-2021",
+            "name" : "Shravan",
+            "email" : "shravan23@gmail.com",
+            "phone" : "8963257848"
+
+        },
+        {
+            "id" : "2",
+            "date" : "7-11-2021",
+            "name" : "Keerthy",
+            "email" : "keertheynamula3@gmail.com",
+            "phone" : "9963254128"
+
+        },
+        {
+            "id" : "3",
+            "date" : "7-11-2021",
+            "name" : "Karan",
+            "email" : "karanshetty@gmail.com",
+            "phone" : "7758412690"  
+             },
+        {
+            "id" : "4",
+            "date" : "7-11-2021",
+            "name" : "Roshan",
+            "email" : "roskyd@gmail.com",
+            "phone" : "9788884520"
+
+        },
+        {
+            "id" : "5",
+            "date" : "7-11-2021",
+            "name" : "Rajeev",
+            "email" : "rajeevkv@gmail.com",
+            "phone" : "6874597120"
+
+        }
+
+    ]
+}
